@@ -1,0 +1,47 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  /* width: 200px; */
+  background-color: #182747;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.sidebar .addIcon {
+  width: 60px;
+  cursor: pointer;
+  align-items: center;
+  margin-top: 60px;
+  color: aliceblue;
+  border-radius: 50px;
+}
+
+.sidebar_list {
+  position: relative;
+  right: 21px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  /* justify-content: center; */
+  height: 0;
+  transition: 300ms;
+}
+
+.sidebar_list_active {
+  position: relative;
+  right: 21px;
+  height: 300px;
+  text-align: center;
+
+  /* text-align: center; */
+}
+
+.sidebar_list_item {
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+  list-style: none;
+
+}
